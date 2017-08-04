@@ -22,3 +22,6 @@ that match the pattern 'box' and lists out their frequencies in the database.
 http://localhost:8080/bottomN?patt=Shirt|Pant&cnt=100      This is to get the bottom 100 words(by word frequency count) 
 that match the pattern Shirt or Pant. The matching is case insensitive.
 
+
+Anshum Gupta, Vinit Gupta
+
