@@ -16,11 +16,8 @@ in the database. Currently freqs is not supported. It might be supported in the 
 specify the minimum number of times each word must be present in the question to be counted.
 The output is the list of matching questions along with the count of the number of words that match the words from the query.
 
-http://localhost:8080/topN?patt=box&cnt=100     This is to get the top 100 words(by word frequency count) 
-that match the pattern 'box' and lists out their frequencies in the database.
-
-http://localhost:8080/bottomN?patt=Shirt|Pant&cnt=100      This is to get the bottom 100 words(by word frequency count) 
-that match the pattern Shirt or Pant. The matching is case insensitive.
+http://localhost:8080/topN?patt=Shirt|Pant&cnt=100     This is to get the top 100 words(by word frequency count) 
+that match the prefix Shirt or Pant and lists out their frequencies in the database.
 
 
 Anshum Gupta, Vinit Gupta, D.B.Cooper, V R Rao
